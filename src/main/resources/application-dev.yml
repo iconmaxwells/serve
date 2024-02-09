@@ -1,0 +1,12 @@
+
+
+#Server
+SERVER_PORT: 8081
+ACTIVE_PROFILE: dev
+
+#Email Config
+EMAIL_HOST: smtp.titan.email
+EMAIL_PORT: 587
+EMAIL_ID: serve.restaurant@3dotsstudios.com
+EMAIL_PASSWORD: 0040105715@3dots
+VERIFY_EMAIL_HOST: http://localhost:${SERVER_PORT}
